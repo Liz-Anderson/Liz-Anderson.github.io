@@ -1,0 +1,42 @@
+/* personal portfolio */
+
+
+/* ------mobile------- */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header {
+    background-image: url("https://www.nexmuse.com/final/6171e99c2cfb3.jpg");
+    max-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(74, 112, 134);
+    color: rgb(248, 239, 228);
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    /* font-family: 'Zen Loop', cursive; */
+    font-family: 'Poiret One', 'Source Sans Pro', sans-serif;
+    padding-left: 1em;
+}
+
+h1 {
+    background-color: rgb(41, 33, 3, 0.7);
+}
+
+.bio-container, .skills, .work-history {
+    background-color: rgb(83, 83, 99, 0.7);
+    padding: 1em 2em 1em 2em;
+    margin: 2em;
+    border-radius: 5px;
+}
+
