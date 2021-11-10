@@ -11,18 +11,24 @@
         <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Zen+Loop&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nanum+Gothic&family=Nanum+Pen+Script&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
+            <nav>
+                <p><a href="#home-anchor">Home</a></p>
+                <p><a href="#bio-anchor">About</a></p>
+                <p><a href="#skills-anchor">Skills</a></p>
+                <p><a href="#projects-anchor">Projects</a></p>
+                <p><a href="#work-anchor">Work History</a></p>
+            </nav>
             <!-- <img src="https://www.nexmuse.com/final/6171e99c2cfb3.jpg" alt="painting of trees and a lake"> -->
-            <h1>I'm Liz!</h1>
+            <h1 id="home-anchor">I'm Liz!</h1>
         </header>
-        <div class="bio-container">
+        <div class="bio-container" id="bio-anchor">
             <p class="bio">I am fairly new to the tech world but, I am learning fast and loving it. I was a preschool teacher for the past 13 years in Portland, OR, then the pandemic gave me the opportunity to finally change my career focus. I started self-learning how to code and am now taking it a step further with a full stack web developer bootcamp. My favorite is coding in python... the more challenging the better.</p>
         </div>
-        <div class="skills-container">
+        <div class="skills-container" id="skills-anchor">
             <h2 class="skills-title">What I Know</h2>
             <ul class="skills">
                 <li>python</li>
@@ -32,11 +38,24 @@
                 <li>git</li>
             </ul>
         </div>
-        <div class="projects-container">
+        <div class="projects-container" id="projects-anchor">
             <h2 class="projects-title">What I've Done</h2>
+            <div class="card">
+                <h3>Alex Trebek Bio</h3>
+                <a href="https://github.com/PdxCodeGuild/class_sturgeon/tree/main/code/liz/html_css_labs/lab_01"><img src="https://i.pinimg.com/originals/63/d4/59/63d4594171ff1711c4302aa46a1a934d.jpg" alt="Alex Trebek's face"></a>
+            </div>
+            <div class="card">
+                <h3>Sweaters for Cats</h3>
+                <a href="https://github.com/PdxCodeGuild/class_sturgeon/tree/main/code/liz/html_css_labs/lab_02"><img src="https://img.ltwebstatic.com/images3_pi/2020/11/27/160644791168cc41be2d8e6713d1a42fe57dcdbbb9.webp" alt="cat wearing a sweater"></a>
+            </div>
+            <div class="card">
+                <h3>Burrito Order Form</h3>
+                <a href="https://github.com/PdxCodeGuild/class_sturgeon/tree/main/code/liz/html_css_labs/lab_04"><img src="https://i.redd.it/0xdbvitdmo851.jpg" alt="Two miniature burritos, smaller than a finger, wrapped in foil being held by two fingers"></a>
+            </div>
+            
             
         </div>
-        <div class="work-history-container">
+        <div class="work-history-container" id="work-anchor">
             <h2 class="work-history-title">Work History</h2>
             <ul class="work-history">
                 <li>2021 - Office manager at Childswork Learning Center</li>
