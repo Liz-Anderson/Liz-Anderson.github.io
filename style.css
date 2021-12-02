@@ -13,49 +13,23 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-/* img {
 
-} */
-/* header {
-    background: url("https://www.nexmuse.com/final/6171e99c2cfb3.jpg");
-    background-size: inherit;
-} */
 
 body {
-
-    /* background-image: linear-gradient(90deg, #f5f1e2 5.56%, #f5c31e 5.56%, #f5c31e 11.11%, #f5f1e2 11.11%, #f5f1e2 16.67%, #f2a053 16.67%, #f2a053 22.22%, #f5f1e2 22.22%, #f5f1e2 27.78%, #9ad4e3 27.78%, #9ad4e3 33.33%, #f5f1e2 33.33%, #f5f1e2 38.89%, #90a6c2 38.89%, #90a6c2 44.44%, #f5f1e2 44.44%, #f5f1e2 50%, #f5f1e2 50%, #f5f1e2 55.56%, #f5c31e 55.56%, #f5c31e 61.11%, #f5f1e2 61.11%, #f5f1e2 66.67%, #f2a053 66.67%, #f2a053 72.22%, #f5f1e2 72.22%, #f5f1e2 77.78%, #9ad4e3 77.78%, #9ad4e3 83.33%, #f5f1e2 83.33%, #f5f1e2 88.89%, #90a6c2 88.89%, #90a6c2 94.44%, #f5f1e2 94.44%, #f5f1e2 100%);
-    background-size: 360.00px 360.00px; */
-
-    /* background-image: linear-gradient(90deg, #B2A2CD 16.67%, #5F5370 16.67%, #5F5370 33.33%, #fff 33.33%, #fff 100%);
-
-    background-size: 100%; */
-
-    /* background-image: linear-gradient(90deg, #f5f1e2 20%, #f5c31e 20%, #f5c31e 5%, #f5f1e2 5%, #f5f1e2 3%, #f2a053 3%, #f2a053 5%, #f5f1e2 5%, #f5f1e2 3%, #9ad4e3 3%, #9ad4e3 5%, #f5f1e2 5%, #f5f1e2 3%, #90a6c2 3%, #90a6c2 5%, #f5f1e2 51%);
-    background-size: 100%; */
-
-    /* background-image: linear-gradient(90deg, #f5f1e2 5%, #f5c31e 5%, #f5c31e 11%, #f5f1e2 11%, #f5f1e2 16%, #f2a053 16%, #f2a053 22%, #f5f1e2 22%, #f5f1e2 27%, #9ad4e3 27%, #9ad4e3 33%, #f5f1e2 33%, #f5f1e2 38%, #90a6c2 38%, #90a6c2 44%, #f5f1e2 44%);
-    background-size: 100%; */
-
-    /* background-image: linear-gradient(90deg, #f5f1e2 5.56%, #f5c31e 5.56%, #f5c31e 11.11%, #f5f1e2 11.11%, #f5f1e2 16.67%, #f2a053 16.67%, #f2a053 22.22%, #f5f1e2 22.22%, #f5f1e2 27.78%, #9ad4e3 27.78%, #9ad4e3 33.33%, #f5f1e2 33.33%, #f5f1e2 38.89%, #90a6c2 38.89%, #90a6c2 44.44%, #f5f1e2 44.44%, #f5f1e2 50%, #f5f1e2 50%, #f5f1e2 55.56%, #f5c31e 55.56%, #f5c31e 61.11%, #f5f1e2 61.11%, #f5f1e2 66.67%, #f2a053 66.67%, #f2a053 72.22%, #f5f1e2 72.22%, #f5f1e2 77.78%, #9ad4e3 77.78%, #9ad4e3 83.33%, #f5f1e2 83.33%, #f5f1e2 88.89%, #90a6c2 88.89%, #90a6c2 94.44%, #f5f1e2 94.44%, #f5f1e2 100%);
-    background-size: 100%; */
-
-    /* background-image: linear-gradient(90deg, #fffdf0 20%, #faca0a 5%, #fffdf0 3%, #e86c07 33.33%, #fffdf0 33.33%, #fffdf0 100%);
-    background-size: 100%; */
-    /* background-image: linear-gradient(90deg, rgb(224, 224, 211) 25%,rgb(241, 192, 28),rgb(216, 107, 6),rgb(136, 205, 223),rgb(115, 147, 189),rgb(224, 224, 211) 50%); */
-    /* background-color: rgb(74, 112, 134);
-    color: rgb(248, 239, 228); */
     font-family: 'Nanum Gothic', sans-serif;
     line-height: 1.5;
 }
-/* header {
-    margin: 25%;
-} */
 
 
-nav, h1, h2 {
-    /* font-family: 'Zen Loop', cursive; */
-    /* font-family: 'Nanum Pen Script', cursive; */
-    font-family: 'Sue Ellen Francisco', cursive;
+nav {
+    font-family: 'Amatic SC', cursive;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Sue Ellen Francisco', cursive; */
     padding-left: 1.5em;
     padding-top: 1em;
 }
@@ -76,9 +50,6 @@ p a {
 }
 
 
-/* h1 {
-    background-color: rgb(41, 33, 3, 0.7);
-} */
 a img {
     height: 100px;
     width: auto;
@@ -91,15 +62,18 @@ a:hover {
   }
 
 ul {
+    
     list-style-type: circle;
     list-style-position: outside;
     list-style-image: none;
   }
 
+/* ul li {
+    display: inline;
+} */
+
 .bio-container, .skills, .card, .work-history {
-    /* background-color: rgb(83, 83, 99, 0.7); */
     padding: 1em 2em 1em 2em;
     margin: 2em;
-    /* border-radius: 5px; */
 }
 
