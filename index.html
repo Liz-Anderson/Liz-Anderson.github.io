@@ -8,44 +8,70 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio - Liz Anderson</title>
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
-        <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nanum+Gothic&family=Nanum+Pen+Script&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+       
     </head>
     <body>
-        <header>
+        
+        <!-- <header>
             <nav>
-                <p><a href="#home-anchor">Home</a></p>
-                <p><a href="#bio-anchor">About</a></p>
-                <p><a href="#skills-anchor">Skills</a></p>
-                <p><a href="#projects-anchor">Projects</a></p>
-                <p><a href="#work-anchor">Work History</a></p>
+                <p><a href="#about">About</a></p>
+                <p><a href="#projects">Projects</a></p>
+                <p><a href="#contact">Contact</a></p>
             </nav>
-            <!-- <img src="https://www.nexmuse.com/final/6171e99c2cfb3.jpg" alt="painting of trees and a lake"> -->
-            <h1 id="home-anchor">I'm Liz!</h1>
-        </header>
-        <div class="bio-container" id="bio-anchor">
-            <p class="bio">I am fairly new to the tech world but, I am learning fast and loving it. I was a preschool teacher for the past 13 years in Portland, OR, then the pandemic gave me the opportunity to finally change my career focus. I started self-learning how to code and am now taking it a step further with a full stack web developer bootcamp. My favorite is coding in python... the more challenging the better.</p>
+        </header> -->
+        <div class="about-container">
+            <h1>I'm Liz!</h1>
+            <div class="content">
+                <p class="about">I am a full stack web developer based in Portland, OR. I have experience in a wide range of languages and frameworks, but particularly enjoy working with APIs in python and vue.</p>
+                <!-- <ul class="skills">
+                    <li>python</li>
+                    <li>javascript</li>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>flask</li>
+                    <li>django</li>
+                    <li>django rest framework</li>
+                    <li>ajax</li>
+                    <li>vue</li>
+                    <li>git</li>
+                </ul> -->
+                <div class="skills">
+                    <p>python</p>
+                    <p>javascript</p>
+                    <p>html</p>
+                    <p>css</p>
+                    <p>responsive design</p>
+                    <p>flask</p>
+                    <p>django</p>
+                    <p>django rest framework</p>
+                    <p>ajax/apis</p>
+                    <p>vue</p>
+                    <p>git/github</p>
+                    <p></p>
+                </div>
+            </div>
         </div>
-        <div class="skills-container" id="skills-anchor">
-            <h2 class="skills-title">What I Know</h2>
-            <ul class="skills">
-                <li>python</li>
-                <li>javascript</li>
-                <li>html</li>
-                <li>css</li>
-                <li>flask</li>
-                <li>django</li>
-                <li>django rest framework</li>
-                <li>ajax</li>
-                <li>vue</li>
-                <li>git</li>
-            </ul>
-        </div>
-        <div class="projects-container" id="projects-anchor">
-            <h2 class="projects-title">What I've Done</h2>
-            <div class="card">
+        <div class="projects-container">
+            <h2 class="projects-title">Projects</h2>
+            <div class="content">
+                <p>Some recent projects made while enrolled in PDX Code Guild bootcamp.</p>
+                <div class="card">
+                    <a href="https://critter-collector.herokuapp.com/#sea-top"><img src="https://i.etsystatic.com/19714541/r/il/31f6ab/2242428056/il_570xN.2242428056_pu4h.jpg" alt="animal crossing leaf logo"></a>
+                    <h3>Animal Crossing Critter Collector</h3>
+                    <p>A companion app for Animal Crossing New Leaf that provides critter availablilty information, catelogs the critters you've caught, and compare catelogs with friends. It was made using Django, Django REST framework, Vue.js, HTML, and CSS.</p>
+                </div>
+                <div class="card">
+                    <a href="https://imlizanderson.com/jeopardy/"><img src="https://www.liveabout.com/thmb/-1IkuMGHyqL3eNeZ04ep70HVCPo=/1920x1080/filters:fill(auto,1)/jeop_logo_large-58bacf375f9b58af5cb69e2f.jpg" alt="jeopardy game show title"></a>
+                    <h3>Jeopardy!</h3>
+                    <p>An app that allows you to play almost any Jeopardy! game in history! It was made using Vue.js, HTML, CSS, and love. Currently only works well on larger screens, but I promise I will fix that soon.</p>
+                </div>
+            </div>
+                
+            <!-- <div class="card">
                 <h3>Alex Trebek Bio</h3>
                 <a href="https://github.com/PdxCodeGuild/class_sturgeon/tree/main/code/liz/html_css_labs/lab_01"><img src="https://i.pinimg.com/originals/63/d4/59/63d4594171ff1711c4302aa46a1a934d.jpg" alt="Alex Trebek's face"></a>
             </div>
@@ -56,23 +82,19 @@
             <div class="card">
                 <h3>Burrito Order Form</h3>
                 <a href="https://github.com/PdxCodeGuild/class_sturgeon/tree/main/code/liz/html_css_labs/lab_04"><img src="https://i.redd.it/0xdbvitdmo851.jpg" alt="Two miniature burritos, smaller than a finger, wrapped in foil being held by two fingers"></a>
-            </div>
+            </div> -->
             
             
         </div>
-        <div class="work-history-container" id="work-anchor">
-            <h2 class="work-history-title">Work History</h2>
-            <ul class="work-history">
-                <li>2021 - Office manager at Childswork Learning Center</li>
-                <br>
-                <li>2015 - 2020 - Lead teacher at Childswork Learning Center</li>
-                <br>
-                <li>2013 - 2015 - Lead teacher at ChildRoots</li>
-                <br>
-                <li>2010 - 2013 - Lead teacher at The Children's Garden</li>
-                <br>
-                <li>2007 - 2010 - Director and lead teacher at Blossom House</li>
-            </ul>
+        <div class="contact-container">
+            <h2 class="contact-title">Contact me</h2>
+            <div class="content">
+                <p>
+                    <a href="mailto:imlizanderson@gmail.com" target="_blank">Email</a> |
+                    <a href="https://github.com/Liz-Anderson" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/liz-a-15875359/" target="_blank">LinkedIn</a>
+                </p>
+            </div>
         </div>
 
     </body>
